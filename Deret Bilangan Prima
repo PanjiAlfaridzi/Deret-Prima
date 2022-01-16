@@ -1,0 +1,26 @@
+//Progam membuat deret bilangan prima
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    //Kamus
+    int n,i;
+
+    //Algoritma
+    cout << "Masukkan batas nilainya=" ;
+    cin >> n;
+    cout << "Deret bilangan prima adalah = " << endl;
+    for(i=2; i<=n ; i++)
+    {
+        if((i%2!=0)&&(i%3!=0)){
+        cout << i << " " << endl;
+
+        }
+    }
+
+        cout << endl;
+    return 0;
+}
